@@ -1,0 +1,7 @@
+li {
+    list-style-type: none;
+}
+#price {
+    font-weight: 700;
+    color: red;
+}
