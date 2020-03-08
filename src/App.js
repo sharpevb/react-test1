@@ -2,7 +2,6 @@ import React, { Component } from "react";
 import Wrapper from "./components/Wrapper/index"
 import Card from "./components/Card/index";
 import products from "../src/products.json";
-//import { render } from "react-dom";
 
 
 class App extends Component {

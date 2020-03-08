@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import products from "../../../src/products.json"
+import "./style.css";
 
 
 class CartButton extends Component {
@@ -9,8 +10,8 @@ class CartButton extends Component {
       }
 
     click() {
-        console.log("hello from CartButton component")
-        console.log({products})
+        //console.log("CartButton component")
+        console.log(products)
     }
 
 
@@ -18,7 +19,7 @@ class CartButton extends Component {
         return(
             <div>
                 <li>
-                <button className="btn" onClick={(e) => this.click(e)}>Add to Cart</button> 
+                <button className="btn" onClick={(e) => this.click(e)}><strong>Add to Cart</strong></button> 
                 </li>
             </div>
         )
@@ -29,7 +30,7 @@ class CartButton extends Component {
 //     return (
 //         <div>
 //                 <li>
-//                  <button className="button" onClick={console.log("jello")}>Add to Cart</button>   
+//                  <button className="button" onClick={console.log("hello")}>Add to Cart</button>   
 //                 </li>
             
 //         </div>
